@@ -58,12 +58,12 @@ API Authentication for iOS Logos Tweak
 </div></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Makefile config (theos)</h3><a id="user-content-makefile-config-theos" class="anchor" aria-label="Permalink: Makefile config (theos)" href="#makefile-config-theos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="highlight highlight-source-makefile notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span>Edit TWEAK_NAME and remove @@</span>
-<span class="pl-smi">@@TWEAK_NAME@@_LDFLAGS</span> += API/libAPIClient.a
+<span class="pl-smi">@@TWEAK_NAME@@_LDFLAGS</span> += API/libTKAPIKey.a
 </pre><div class="zeroclipboard-container">
   </div></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">API Integration</h3><a id="user-content-api-integration" class="anchor" aria-label="Permalink: API Integration" href="#api-integration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 
-<pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>APIClient.h<span class="pl-pds">"</span></span>
+<pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>API/APIClient.h<span class="pl-pds">"</span></span>
 
 <span class="pl-k">void</span> <span class="pl-en">function</span>(){
     TKAPIKey *APIClient = [TKAPIKey <span class="pl-c1">sharedAPIClient</span>];
