@@ -1,31 +1,21 @@
 # TKAPI-Authentication
 API Authentication for iOS Logos Tweak
 
-<table>
+<markdown-accessiblity-table data-catalyst=""><table>
 <thead>
 <tr>
 <th align="center">Login</th>
+<th align="center">Login success</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/53b9caf4-73aa-441b-ba55-ee37bbbd4b58"><img src="https://github.com/user-attachments/assets/53b9caf4-73aa-441b-ba55-ee37bbbd4b58" alt="" style="max-width: 100%;"></a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center">Login Success</th>
-</tr>
-</thead>
-<tbody>
-<tr>
 <td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/b7a8661b-eaba-4766-995c-1068b43c886b"><img src="https://github.com/user-attachments/assets/b7a8661b-eaba-4766-995c-1068b43c886b" alt="" style="max-width: 100%;"></a></td>
 </tr>
 </tbody>
 </table>
+</markdown-accessiblity-table>
 
 <table>
 <thead>
