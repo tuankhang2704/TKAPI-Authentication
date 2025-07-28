@@ -66,20 +66,29 @@ API Authentication for iOS Logos Tweak
 <pre>#<span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">"</span>APIClient.h<span class="pl-pds">"</span></span>
 
 <span class="pl-k">void</span> <span class="pl-en">function</span>(){
-    APIClient *API = [[APIClient <span class="pl-c1">alloc</span>] <span class="pl-c1">init</span>];
-    [API <span class="pl-c1">setToken:</span><span class="pl-s"><span class="pl-pds">@"</span>TOKEN<span class="pl-pds">"</span></span>]; <span class="pl-c"><span class="pl-c">//</span>Enter token from dashboard</span>
+    TKAPIKey *APIClient = [TKAPIKey <span class="pl-c1">sharedAPIClient</span>];
+    [APIClient <span class="pl-c1">setPackageToken:</span><span class="pl-s"><span class="pl-pds">@"</span>TOKEN<span class="pl-pds">"</span></span>]; <span class="pl-c"><span class="pl-c">//</span>Enter token from dashboard</span>
    <span class="pl-c"><span class="pl-c">//</span>paid</span>
-    [API <span class="pl-c1">paid:</span>^{
+    [APIClient <span class="pl-c1">paid:</span>^{
         <span class="pl-c"><span class="pl-c">//</span>load menu</span>
         <span class="pl-c1">loadview</span>(); <span class="pl-c"><span class="pl-c">//</span>etc</span>
         <span class="pl-c1">menuSetup</span>();
 
         <span class="pl-c"><span class="pl-c">//</span>Optional</span>
-    	<span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Key: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [API <span class="pl-c1">getKey</span>]);
-        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - UDID: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [API <span class="pl-c1">getUDID</span>]);
-        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Expiry date: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [API <span class="pl-c1">getExpiryDate</span>]);
-        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Device model: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [API <span class="pl-c1">getDeviceModel</span>]);
+    	<span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Key: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [APIClient <span class="pl-c1">getKey</span>]);
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - UDID: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [APIClient <span class="pl-c1">getUDID</span>]);
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Expiry date: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [APIClient <span class="pl-c1">getExpiryDate</span>]);
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Device model: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [APIClient <span class="pl-c1">getDeviceModel</span>]);
 
    }];
 }
 </pre>
+
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Extra Customizations</h2><a id="user-content-extra-customizations" class="anchor" aria-label="Permalink: Extra Customizations" href="#extra-customizations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">See more in APIClient.h</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Video Guide</h2><a id="user-content-video-guide" class="anchor" aria-label="Permalink: Video Guide" href="#video-guide"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="#" rel="nofollow">Youtube</a></p>
+
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Author</h3><a id="user-content-author" class="anchor" aria-label="Permalink: Author" href="#author"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+
+<p dir="auto">Created by <a href="https://t.me/tuankhangapikeys" rel="nofollow">Khang Tran</a>.</p>
