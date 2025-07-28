@@ -9,3 +9,5 @@ API Authentication for iOS Logos Tweak
 #Dashboard
 <img width="960" height="427" alt="image" src="https://github.com/user-attachments/assets/eed7f9c5-3ca3-4552-bcf6-586a638441d4" />
 
+<p dir="auto">Register account and create package on <a href="https://tuankhang.xyz" rel="nofollow">APIServer</a></p>
+
