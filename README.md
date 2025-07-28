@@ -30,7 +30,7 @@ API Authentication for iOS Logos Tweak
 <table>
 <thead>
 <tr>
-<th align="center">Dashboard</th>
+<th align="center">Login Error</th>
 </tr>
 </thead>
 <tbody>
@@ -43,7 +43,7 @@ API Authentication for iOS Logos Tweak
 <table>
 <thead>
 <tr>
-<th align="center">Dashboard</th>
+<th align="center">Expired</th>
 </tr>
 </thead>
 <tbody>
@@ -56,7 +56,7 @@ API Authentication for iOS Logos Tweak
 <table>
 <thead>
 <tr>
-<th align="center">Dashboard</th>
+<th align="center">Login Mode</th>
 </tr>
 </thead>
 <tbody>
