@@ -80,8 +80,8 @@ API Authentication for iOS Logos Tweak
         <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Expiry date: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [API <span class="pl-c1">getExpiryDate</span>]);
         <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>APIData - Device model: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, [API <span class="pl-c1">getDeviceModel</span>]);
 
-   }];
-}
+  <span class="pl-c1"> }]; </span>();
+<span class="pl-c1">} </span>();
 </pre><div class="zeroclipboard-container">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="#import &quot;APIClient.h&quot;
 
