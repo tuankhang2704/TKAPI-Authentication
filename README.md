@@ -17,31 +17,21 @@ API Authentication for iOS Logos Tweak
 </table>
 </markdown-accessiblity-table>
 
-<table>
+<markdown-accessiblity-table data-catalyst=""><table>
 <thead>
 <tr>
 <th align="center">Login Error</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/fe1fe798-c864-4da6-bb64-6f91aa762337"><img src="https://github.com/user-attachments/assets/fe1fe798-c864-4da6-bb64-6f91aa762337" alt="" style="max-width: 100%;"></a></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th align="center">Expired</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/fe1fe798-c864-4da6-bb64-6f91aa762337"><img src="https://github.com/user-attachments/assets/fe1fe798-c864-4da6-bb64-6f91aa762337" alt="" style="max-width: 100%;"></a></td>
 <td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/19b3c3b4-9041-4fed-98af-416de8d86e35"><img src="https://github.com/user-attachments/assets/19b3c3b4-9041-4fed-98af-416de8d86e35" alt="" style="max-width: 100%;"></a></td>
 </tr>
 </tbody>
 </table>
+</markdown-accessiblity-table>
 
 <table>
 <thead>
