@@ -14,7 +14,7 @@ API Authentication for iOS Logos Tweak
 </thead>
 <tbody>
 <tr>
-<td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/eefc8589-1940-4f5f-b336-78a8220adb31"></a></td>
+<td align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/user-attachments/assets/eefc8589-1940-4f5f-b336-78a8220adb31"><img src="https://github.com/user-attachments/assets/eed7f9c5-3ca3-4552-bcf6-586a638441d4" alt="" style="max-width: 100%;"></a></td>
 </tr>
 </tbody>
 </table>
