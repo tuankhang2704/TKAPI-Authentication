@@ -18,7 +18,8 @@ API Authentication for iOS Logos Tweak
 
 <span class="pl-k">void</span> <span class="pl-en">function</span>(){
     TKAPIKey *APIClient = [TKAPIKey <span class="pl-c1">sharedAPIClient</span>];
-    [APIClient <span class="pl-c1">setPackageToken:</span><span class="pl-s"><span class="pl-pds">@"</span>TOKEN<span class="pl-pds">"</span></span>]; <span class="pl-c"><span class="pl-c">//</span>Enter token from dashboard</span>
+    [APIClient <span class="pl-c1">setPackageToken:</span><span class="pl-s"><span class="pl-pds">@"</span>TOKEN<span class="pl-pds">"</span></span>];<span class="pl-c"><span class="pl-c">//</span>Enter token from dashboard</span>
+  [APIClient <span class="pl-c1">setPackageVersion:</span><span class="pl-s"><span class="pl-pds">@"</span>VERSION<span class="pl-pds">"</span></span>];<span class="pl-c"><span class="pl-c">//</span>Enter Version from dashboard</span>
    <span class="pl-c"><span class="pl-c">//</span>paid</span>
     [APIClient <span class="pl-c1">paid:</span>^{
         <span class="pl-c"><span class="pl-c">//</span>load menu</span>
